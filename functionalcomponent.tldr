@@ -1,0 +1,251 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 472.9166617823974,
+			"y": 2116.5554808289903,
+			"lastActivityTimestamp": 1732169562610,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 693.75,
+				"h": 386.111083984375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.440000057220459,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:_Pw6w0mQHeeM6iTYsR6Mz",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:_Pw6w0mQHeeM6iTYsR6Mz"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": -122.91666178239741,
+			"y": -1880.5554808289903,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 88.11848449707031,
+			"y": 56.4073371887207,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:pmNJqltCKZIeT9Ip5lIvY",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 608.7039794921875,
+				"text": "- class based component\n- functional Components in react \n=========================\n\n-> JSX \n----------\nhtml like code in Javascript \nfunction Greet(){\nreturn(\n   <h1>Hello this is First JSX CODE</h1>\n   // JSX \n)\n  }\n\n-> Defnition- Functional Components are building\nblocks of react , it is used like function which is \nused to render content on screen and it is very \nsimple in comparison of class based component.\n\nSyntax-\n=======\n\nfunction functionName(){\nreturn <h1>This is my first Jsx code<h1>;\n}\n\nexport default functionName;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 63.118488790812314,
+			"y": 754.5464123443339,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:kAGwVeHOdZZsgKBbY47O7",
+			"type": "geo",
+			"props": {
+				"w": 545.2148513793984,
+				"h": 185.03688049316406,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2A7e",
+			"typeName": "shape"
+		},
+		{
+			"x": 80.4795956633709,
+			"y": 957.101745842786,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:B9ALItljZx0_oFv0Vi-NN",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 640.0516357421875,
+				"text": "important points -\n----------------------\n1.  it is used in Js when we want to write some\njsx code in return .\n2. Jsx = it's a combination of html and Javascript.\n3. Functional Component name should always start\nfrom capital letter.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3AOu",
+			"typeName": "shape"
+		},
+		{
+			"x": 114.50737428885918,
+			"y": 1236.962841539473,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ZF-0vu_6XIa7QoDvpk8xJ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 554.41796875,
+				"text": "Why we are using import React from 'react'?\nReact.createElement\n\nJsx -> JS (React.createElement)",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a4BKf",
+			"typeName": "shape"
+		},
+		{
+			"x": 158.95181966379837,
+			"y": 1395.2961690425889,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_Pw6w0mQHeeM6iTYsR6Mz",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 535.9175415039062,
+				"text": "Talwind Css\n\n-installation \n1st step-\nnpm install -D tailwindcss\nnpx tailwindcss init\n2nd step - (paste code in talwind config.js)\n/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\"./src/**/*.{html,js}\"],\n  theme: {\n    extend: {},\n  },\n  plugins: [],\n}\n3rd step (paste this code in index.css)-\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n<h1 className=\"\">\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a52IW",
+			"typeName": "shape"
+		}
+	]
+}

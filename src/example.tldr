@@ -1,0 +1,244 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 300.93622658851444,
+			"y": 2164.551965250724,
+			"lastActivityTimestamp": 1731909393671,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 899.9999389648438,
+				"h": 386.111083984375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.440000057220459,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:z5lcCyloGHuUEaw0F4mO0",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:z5lcCyloGHuUEaw0F4mO0"
+			],
+			"hoveredShapeId": "shape:z5lcCyloGHuUEaw0F4mO0",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 85.19290374222767,
+			"y": -1883.3214454017966,
+			"z": 0.445825611099869,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -50.80102536281096,
+			"y": -660.8640762926934,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:t7VJwlnapwAMW0u-EeM8-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 3900.880615234375,
+				"text": "Parcel is a bundler and build tool designed to simplify the process of managing and optimizing your web development\n assets like JavaScript, HTML, CSS, images, and more. It’s fast, developer-friendly, and tailored for modern web development\n needs.\n\nUse Cases of Parcel\nWeb Application Development:\nIdeal for single-page or multi-page applications.\nWorks seamlessly with frameworks like React, Vue, Angular, or plain JavaScript.\nAsset Management:\nHandles CSS, SCSS, images, fonts, and JavaScript files efficiently.\nAutomatically bundles various file types without requiring extra configuration.\nCode Optimization:\n\nMinifies, transpiles, and performs tree-shaking to optimize code.\nReduces the final application size for better performance.\nServer-Side Rendering (SSR):\n\nCan be used in server-side rendering projects by integrating with backend frameworks.\nProgressive Web Apps (PWAs):\n\nHelps in building PWAs by supporting offline caching and performance optimization.\nBenefits of Using Parcel\nZero Configuration:\n\nWorks out-of-the-box without requiring complex setup or configuration files.\nPerfect for beginners and developers who want to save setup time.\nFast Build Speeds:\n\nUses parallel processing and advanced caching mechanisms to deliver faster builds.\nAutomatic Dependency Management:\n\nAutomatically manages project dependencies like npm packages.\nHot Module Replacement (HMR):\n\nAllows live updates in development; changes reflect instantly in the browser.\nBuilt-in Features:\n\nCode Splitting: Splits large applications into smaller chunks for faster loading.\nTranspilation: Converts modern JavaScript (ES6+) into browser-compatible code.\nTree Shaking: Removes unused code to reduce the bundle size.\nCross-Platform Compatibility:\n\nWorks on Windows, Mac, and Linux platforms.\nSupport for Multiple File Types:\n\nHandles JavaScript, CSS, SCSS, LESS, TypeScript, images (JPG, PNG, SVG), and more.\nOpen Source and Community Support:\n\nFree to use and backed by an active community.\nComparison with Other Bundlers (e.g., Webpack)\nParcel is beginner-friendly and requires no configuration, making it faster and easier \nto use than Webpack, which often needs detailed setup.\nWhile Webpack is more powerful for complex projects, Parcel’s simplicity and speed make it ideal for small-to-medium\nprojects.\nConclusion\nParcel is an excellent choice if you’re looking for a simple, fast, and efficient bundler that automatically handles everything. It’s suitable for both beginners and experienced developers, and its zero-configuration setup streamlines the development workflow, making it a go-to tool for modern web development.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": -1.079280193212,
+			"y": 1184.8720065521525,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0lXibGGQ7k9YRYK4AlOe5",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 220.76995849609375,
+				"text": "Code optimization",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.560728090333178
+			},
+			"parentId": "page:page",
+			"index": "a25dF",
+			"typeName": "shape"
+		},
+		{
+			"x": 39.41984606759134,
+			"y": 1297.0234476007254,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6ykBL5Mxj5iUZGLHb4iyc",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 685.9662567475309,
+				"text": "- Run time \n- Total acquiring space\n- render timing ",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.4296027871794768
+			},
+			"parentId": "page:page",
+			"index": "a30cn",
+			"typeName": "shape"
+		},
+		{
+			"x": -5.922649170956177,
+			"y": 1578.253991012154,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:9VuL5OMKQ7tTPoCkVw7r9",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1195.9165524198077,
+				"text": "- Rendering\n1. Client Side Rendering\n2. Server Side Rendering",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 3.859205574358961
+			},
+			"parentId": "page:page",
+			"index": "a40Yz",
+			"typeName": "shape"
+		},
+		{
+			"x": 0.6487263334083053,
+			"y": 2059.4246899048903,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:z5lcCyloGHuUEaw0F4mO0",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1337.8065948063968,
+				"text": "hmr- hot module\n reloading",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 6.408068372802562
+			},
+			"parentId": "page:page",
+			"index": "a56Ix",
+			"typeName": "shape"
+		}
+	]
+}

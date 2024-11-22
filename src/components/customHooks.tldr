@@ -1,0 +1,298 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 392.80555607985565,
+			"y": 1538.7221691851257,
+			"lastActivityTimestamp": 1731999806795,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 899.9999389648438,
+				"h": 386.111083984375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.440000057220459,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:3Go4qK7DMturbb_A2O-UM",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:3Go4qK7DMturbb_A2O-UM"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 13.194443920144348,
+			"y": -1334.7221691851257,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 305.4795837402344,
+			"y": 49.462886810302734,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rxVTlZ4-1gt4vpaEcPSdq",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 171.9526824951172,
+				"text": "Custom Hooks",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 61.805538177490234,
+			"y": 88.66643905639648,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:41ILpZYPTEkDqOcO2JlBf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 248.94920349121094,
+				"text": "- Simple Js Function",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2CNx",
+			"typeName": "shape"
+		},
+		{
+			"x": 56.86848831176758,
+			"y": 115.43511581420898,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:HW1Ib0d17nwnB0Buom9-I",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 637.4365844726562,
+				"text": "-  when we have to provide a stateful logic to \nencapusulate any particular component.\n- ex- pagination hooks, api data fetching hooks.\n\nNeed of Custom Hook-\n==================\n1. Resuablitiy\n2. Readiablity\n3. Abstraction - Basically it used when you \nwant to abstract any complext logic from any \nparticular component and which will focus only on \nyour ui.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a35nc",
+			"typeName": "shape"
+		},
+		{
+			"x": 48.535155078879086,
+			"y": 514.7406499319616,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tXxYDM-4FsSgWqFRH_Wh7",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 413.185302734375,
+				"text": "Custom Hook v/s Normal Function\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a43Vb",
+			"typeName": "shape"
+		},
+		{
+			"x": 34.646265766134945,
+			"y": 509.4075314932408,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:g5VQgqA6HQmBwt5xu_fGh",
+			"type": "geo",
+			"props": {
+				"w": 469.5203742980957,
+				"h": 41.98133850097662,
+				"geo": "rectangle",
+				"color": "violet",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a53z1",
+			"typeName": "shape"
+		},
+		{
+			"x": 29.090712329855652,
+			"y": 566.1295392270451,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XnzTy3Jo-_G_AI14DQUhn",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 648.3524169921875,
+				"text": "- custom hooks me aap hooks ka use karte hai \n  but in normal function you doesn't.\n-we use use Prfefix when declare custom hooks.\n\nRules-\n======\n1. use Prefix \n2.jitne bhi hooks aap declare karenge custom hooks\nke andar vo sare hooks top level par hone chahiye..\n3. Parameter and Return value \n  value 1\n  value 2\n  value 3\n\nreturn {value1,value2,value3}",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a67zS",
+			"typeName": "shape"
+		},
+		{
+			"x": 33.95182301711151,
+			"y": 1060.5739575304392,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3Go4qK7DMturbb_A2O-UM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 666.9071044921875,
+				"text": "Structure of Custom Hook -\n====================\n1. State Management\n2. Side Effects\n3. Return Statement\n\nExample for Custom Hook-\n\n-> we will make a custom hook which will fetch data\nfrom api.\n\n->useState\n->useEffect\n->useMemo\n->useRef\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a79gD",
+			"typeName": "shape"
+		}
+	]
+}
